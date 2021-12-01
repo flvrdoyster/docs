@@ -6,7 +6,7 @@
         <meta charset="utf-8">
         <meta name="description" content="Entry Docs - Entry 개발 가이드">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-        <meta name="naver-site-verification" content="7fccc7599f015b17cda0f00b5575cd2d4c5777fd" />
+        <meta name="naver-site-verification" content="7fccc7599f015b17cda0f00b5575cd2d4c5777fd">
         
         <meta property="og:type" content="article">
         <meta property="og:title" content="인공지능 블록 > 분류 모델 - 음성 — Entry Docs">
@@ -27,7 +27,7 @@
         <link rel="apple-touch-icon" sizes="144x144" href="/images/icons/apple-icon-144x144.png">
         <link rel="apple-touch-icon" sizes="152x152" href="/images/icons/apple-icon-152x152.png">
         <link rel="apple-touch-icon" sizes="180x180" href="/images/icons/apple-icon-180x180.png">
-        <link rel="icon" type="image/png" sizes="192x192"  href="/images/icons/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="192x192" href="/images/icons/android-icon-192x192.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/images/icons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="96x96" href="/images/icons/favicon-96x96.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/images/icons/favicon-16x16.png">
@@ -38,8 +38,8 @@
         <meta name="msapplication-config" content="browserconfig.xml">
         <link rel="manifest" href="/manifest.json">
 
-        <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Roboto Mono' rel='stylesheet' type='text/css'>
-        <link href='//fonts.googleapis.com/css?family=Dosis:500' rel='stylesheet' type='text/css'>
+        <link href="//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600|Roboto Mono" rel="stylesheet" type="text/css">
+        <link href="//fonts.googleapis.com/css?family=Dosis:500" rel="stylesheet" type="text/css">
 
         <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
 
@@ -63,7 +63,7 @@
         </script>
     <meta name="generator" content="Hexo 5.4.0"></head>
     <body class="docs">
-        <div id="mobile-bar" >
+        <div id="mobile-bar">
             <a class="menu-button"></a>
             <a class="logo" href="/"></a>
         </div>
@@ -84,7 +84,7 @@
     <a href="/user/" class="nav-link current">User Guide</a>
 </li>
 <li>
-  <a href="http://github.com/entrylabs/" target="_blank" class="nav-link">GitHub</a>
+  <a href="http://github.com/entrylabs/" target="_blank" class="nav-link" rel="external nofollow noopener noreferrer">GitHub</a>
 </li>
 
   </ul>
@@ -109,7 +109,7 @@
     <a href="/user/" class="nav-link current">User Guide</a>
 </li>
 <li>
-  <a href="http://github.com/entrylabs/" target="_blank" class="nav-link">GitHub</a>
+  <a href="http://github.com/entrylabs/" target="_blank" class="nav-link" rel="external nofollow noopener noreferrer">GitHub</a>
 </li>
 
         </ul>
@@ -471,13 +471,13 @@
 <li><strong>업로드</strong> : 음성 파일을 올립니다. 파일은 10MB 이하여야 하고, wav, mp3 형식(확장자)를 지원해요.</li>
 <li><strong>녹음</strong> : 기기와 연결한 마이크로 음성을 녹음합니다. 가운데 상자에서 녹음하는 음성의 파장을 볼 수 있고, [입력하기] 버튼을 눌러 사진을 촬영할 수 있어요.<br>1~3초까지 녹음할 수 있고, 양쪽의 빨간 선을 드래그하면 음성의 앞/뒤를 잘라내는 트리밍 기능을 사용할 수 있어요.</li>
 </ul>
-<img src="images/window/voice-model-wave.jpeg" alt="voice-model-wave" style="zoom: 33%;" />
+<img src="images/window/voice-model-wave.jpeg" alt="voice-model-wave" style="zoom: 33%;">
 
 <p>각 클래스에 대해서 충분히 학습을 할 수 있도록 최소 5개 이상의 음성을 입력해야 합니다. 입력한 각 음성은 마우스 포인터를 대거나 터치하면 나타나는 [X] 버튼을 눌러서 삭제할 수 있어요.</p>
-<h4 id="②-학습-조건-설정하기"><a href="#②-학습-조건-설정하기" class="headerlink" title="② 학습 조건 설정하기"></a>② 학습 조건 설정하기</h4><img src="images/window/image-model-leaning.png" alt="image-model-leaning" style="zoom:50%;" />
+<h4 id="②-학습-조건-설정하기"><a href="#②-학습-조건-설정하기" class="headerlink" title="② 학습 조건 설정하기"></a>② 학습 조건 설정하기</h4><img src="images/window/image-model-leaning.png" alt="image-model-leaning" style="zoom:50%;">
 
 <p>이렇게 2개 이상의 클래스를 만들고 나면, 학습 박스의 [모델 학습하기] 버튼을 클릭할 수 있습니다. 이 버튼을 바로 눌러 학습을 완료할 수도 있지만, ‘모델을 학습시킬 수 있습니다’ 글씨를 클릭해서 다양한 <strong>학습 조건</strong>을 설정할 수 있어요.</p>
-<img src="images/window/image-model-attribute.png" alt="image-model-attribute" style="zoom:50%;" />
+<img src="images/window/image-model-attribute.png" alt="image-model-attribute" style="zoom:50%;">
 
 <ul>
 <li><p><strong>세대(Epoch)</strong><br>입력한 데이터 전체를 몇 번 반복하여 학습할지 정하는 부분입니다. 입력한 모든 데이터 전체를 1번 학습하는 것을 1세대라고 부르고, 세대는 에포크라고도 불러요.</p>
@@ -503,7 +503,7 @@
 <p>가로축은 세대(Epoch)를 나타냅니다. 세로축에서 <strong>acc</strong>는 학습 정확도를 의미하고, <strong>val_acc</strong>는 검증 정확도를 나타냅니다. 정확도가 1에 가까울수록 더 정확한 인식 결과를 얻을 수 있어요.</p>
 <h2 id="1-학습한-모델로-분류하기"><a href="#1-학습한-모델로-분류하기" class="headerlink" title="1. 학습한 모델로 분류하기"></a>1. 학습한 모델로 분류하기</h2><p><img src="images/block-ai-model-01.png" alt="block-ai-model-01"></p>
 <p>데이터 입력 팝업 창을 열고, 입력한 데이터를 학습한 모델로 분류합니다.</p>
-<img src="images/window/voice-model-input.png" alt="voice-model-input" style="zoom:50%;" />
+<img src="images/window/voice-model-input.png" alt="voice-model-input" style="zoom:50%;">
 
 <p>동시에 작품을 일시 정지해요. 오른쪽 아래 버튼을 클릭해서 창을 닫지 않고도 작품을 다시 시작할 수 있습니다.</p>
 <p>오른쪽 위의 [X] 버튼을 클릭하면, 데이터를 입력하지 않고 창을 닫을 수도 있어요.</p>
@@ -513,17 +513,17 @@
 <h2 id="3-클래스-의-신뢰도"><a href="#3-클래스-의-신뢰도" class="headerlink" title="3. [클래스] 의 신뢰도"></a>3. <code>[클래스]</code> 의 신뢰도</h2><p><img src="images/block-ai-model-04.png" alt="block-ai-model-04"></p>
 <p>입력한 데이터가 분류된 클래스에 대한 신뢰도를 가져오는 값 블록입니다.</p>
 <p>만일 데이터를 입력하지 않았다면 0 을 가져와요.</p>
-<p>목록 상자(<img src="images/icon/dropdown-ai.png" style="zoom:50%;" />)를 클릭하면 정확도를 가져올 클래스를 선택할 수 있어요.</p>
+<p>목록 상자(<img src="images/icon/dropdown-ai.png" style="zoom:50%;">)를 클릭하면 정확도를 가져올 클래스를 선택할 수 있어요.</p>
 <h2 id="4-lt-분류-결과가-클래스-인가-gt"><a href="#4-lt-분류-결과가-클래스-인가-gt" class="headerlink" title="4. &lt;분류 결과가 [클래스] 인가?&gt;"></a>4. &lt;분류 결과가 <code>[클래스]</code> 인가?&gt;</h2><p><img src="images/block-ai-model-05.png" alt="block-ai-model-05"></p>
 <p>입력한 데이터가 선택한 클래스와 가장 비슷하다면 참, 아니라면 거짓으로 판단하는 블록입니다.</p>
 <p>만일 데이터를 입력하지 않았다면 항상 거짓을 가져와요.</p>
-<p>목록 상자(<img src="images/icon/dropdown-ai.png" style="zoom:50%;" />)를 클릭하면 결과를 확인할 클래스를 선택할 수 있어요.</p>
+<p>목록 상자(<img src="images/icon/dropdown-ai.png" style="zoom:50%;">)를 클릭하면 결과를 확인할 클래스를 선택할 수 있어요.</p>
 
     
     <div class="footer">
       Caught a mistake or want to contribute to the documentation?
       <!-- <a href="https://github.com/entrylabs/docs/blob/master/src/user/block_ai_model_voice.md" target="_blank"> -->
-      <a href="https://github.com/entrylabs/docs/blob/master/source/user/block_ai_model_voice.md" target="_blank">
+      <a href="https://github.com/entrylabs/docs/blob/master/source/user/block_ai_model_voice.md" target="_blank" rel="external nofollow noopener noreferrer">
         Edit this page on Github!
       </a>
       <div id="disqus_thread"></div>
@@ -544,7 +544,7 @@
         (d.head || d.body).appendChild(s);
       })();
       </script>
-      <noscript>Please enable JavaScript to view the <a target="_blank" rel="noopener" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+      <noscript>Please enable JavaScript to view the <a target="_blank" rel="external nofollow noopener noreferrer" href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
     </div>
 </div>
 
@@ -558,7 +558,7 @@
         <script src="/js/common.js"></script>
 
         <!-- at the end of the HEAD -->
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.css">
         <!-- at the end of the BODY -->
         <script type="text/javascript" src="https://cdn.jsdelivr.net/docsearch.js/2/docsearch.min.js"></script>
         <script>
