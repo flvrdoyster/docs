@@ -83,24 +83,6 @@
   </url>
   
   <url>
-    <loc>https://docs.playentry.org/user/block_ai.html</loc>
-    
-    <lastmod>2021-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>https://docs.playentry.org/user/block_ai_model.html</loc>
-    
-    <lastmod>2021-12-01</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>https://docs.playentry.org/user/block_ai_model_classification.html</loc>
     
     <lastmod>2021-12-01</lastmod>
@@ -318,6 +300,24 @@
   
   <url>
     <loc>https://docs.playentry.org/user/header.html</loc>
+    
+    <lastmod>2021-12-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.playentry.org/user/block_ai.html</loc>
+    
+    <lastmod>2021-12-01</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://docs.playentry.org/user/block_ai_model.html</loc>
     
     <lastmod>2021-12-01</lastmod>
     
