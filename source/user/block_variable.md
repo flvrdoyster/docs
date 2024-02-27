@@ -1,7 +1,7 @@
 ---
 layout: page
 title: 자료 블록
-date: 2023-11-29 18:29:00
+date: 2024-02-27 10:16:00
 type: userGuide
 category: "블록"
 order: 20
@@ -88,7 +88,7 @@ order: 20
 아래와 같이 동작하는 블록입니다.
 
 + **변수의 내용과 입력한 내용(<img src="images/icon/value.png" alt="value" style="zoom:50%;" />)이 숫자일 때** : 변수의 숫자에 입력한 숫자를 더합니다.
-+ **변수의 내용과 앱력한 내용(<img src="images/icon/value.png" alt="value" style="zoom:50%;" />) 중 하나라도 문자일 때** : 변수의 내용에 입력한 내용을 뒤에 추가합니다.
++ **변수의 내용과 입력한 내용(<img src="images/icon/value.png" alt="value" style="zoom:50%;" />) 중 하나라도 문자일 때** : 변수의 내용에 입력한 내용을 뒤에 추가합니다.
 
 목록 상자(<img src="images/icon/dropdown-variable.png" style="zoom:50%;" />)를 클릭하면 더하거나 추가할 변수를 선택할 수 있어요.
 
